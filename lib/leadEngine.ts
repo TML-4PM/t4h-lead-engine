@@ -71,7 +71,7 @@ export async function submitLead(payload: LeadPayload): Promise<{ success: boole
         consent_terms: payload.consent_terms,
         raw_payload: payload.raw_payload,
         lead_status: 'new',
-        verification_status: 'pending'
+        verification_status: 'new'
       })
     })
 
